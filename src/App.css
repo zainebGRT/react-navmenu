@@ -1,0 +1,36 @@
+.menu-nav a {
+  text-decoration: none;
+  color: whitesmoke
+}
+ul :hover{
+font-family: cursive;
+color:skyblue;
+}
+.menu-nav ul {
+  list-style: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block
+  ;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:slategrey;
+  border-radius:5px;
+  min-width: 260px;
+  height:175px ;
+  line-height: 210%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.menu-nav{
+  background-color: #222222;
+  
+}
+ 
